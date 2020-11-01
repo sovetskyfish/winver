@@ -24,6 +24,7 @@
     <ProjectGuid>{79bcf64b-7921-4201-b209-bd22e0c2c632}</ProjectGuid>
     <RootNamespace>winver</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>winver-cli</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
