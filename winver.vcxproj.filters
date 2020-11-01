@@ -18,5 +18,19 @@
     <ClCompile Include="winver.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="RegistryError.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RegistryHelper.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="RegistryError.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RegistryHelper.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
