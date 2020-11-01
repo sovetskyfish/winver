@@ -61,7 +61,7 @@ std::wstring RegGetString(HKEY hKey, const std::wstring& subKey, const std::wstr
 		throw RegistryError{ "Cannot read string from registry", retCode };
 	}
 
-	// ÒÆ³ý Win32 API ·µ»ØµÄÄ©Î² NUL
+	// Remove trailing NUL returned by Win32 API
 	DWORD stringLengthInWchars = dataSize / sizeof(wchar_t);
 	stringLengthInWchars--;
 	data.resize(stringLengthInWchars);
