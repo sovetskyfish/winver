@@ -142,11 +142,13 @@
   <ItemGroup>
     <ClCompile Include="RegistryError.cpp" />
     <ClCompile Include="RegistryHelper.cpp" />
+    <ClCompile Include="SysInfoHelper.cpp" />
     <ClCompile Include="winver.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="RegistryError.h" />
     <ClInclude Include="RegistryHelper.h" />
+    <ClInclude Include="SysInfoHelper.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

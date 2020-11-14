@@ -24,12 +24,18 @@
     <ClCompile Include="RegistryHelper.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="SysInfoHelper.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="RegistryError.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="RegistryHelper.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SysInfoHelper.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
