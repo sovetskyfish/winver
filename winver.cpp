@@ -110,7 +110,7 @@ int main(int argc, char* argv[])
 				std::wcout
 					<< "           CPU : " << TrimSpace(CPUName)
 					<< " [" << CPUCoreNum << " core(s)]" << std::endl
-					<< " Available RAM : " << std::fixed << std::setprecision(2)
+					<< " Installed RAM : " << std::fixed << std::setprecision(2)
 					<< memInGB << " GB" << std::endl;
 			}
 		}
