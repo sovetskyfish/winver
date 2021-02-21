@@ -109,7 +109,7 @@ int main(int argc, char* argv[])
 				double memInGB = ::GetSysMemoryGB();
 				std::wcout
 					<< "           CPU : " << TrimSpace(CPUName)
-					<< " [" << CPUCoreNum << " core(s)]" << std::endl
+					<< " [" << CPUCoreNum << " logical core(s)]" << std::endl
 					<< " Installed RAM : " << std::fixed << std::setprecision(2)
 					<< memInGB << " GB" << std::endl;
 			}
@@ -129,7 +129,7 @@ int main(int argc, char* argv[])
 				double memInGB = ::GetSysMemoryGB();
 				std::wcout
 					<< TrimSpace(CPUName)
-					<< " [" << CPUCoreNum << " core(s)]"
+					<< " [" << CPUCoreNum << " logical core(s)]"
 					<< " with " << std::fixed
 					<< std::setprecision(2)
 					<< memInGB << " GB RAM installed"
